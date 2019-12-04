@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 6: OAuth 2.0</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <header>
+        <h1>User Info</h1>
+    </header>
+    <div>
+        <ul>
+            <li>Name: {{ session['name'] }}</li>
+            <li>Email: {{ session['email'] }}</li>
+            <li>State: {{ session['state'] }}</li>
+        </ul>
+        <p>To return to the Welcome Page, please <a href="/logout">log out</a>.</p>
+        <p>Logging out will allow you to generate a new state variable.</p>
+    </div>
+</body>
+</html>

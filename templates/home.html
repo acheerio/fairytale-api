@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 6: OAuth 2.0</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome Page</h1>
+    </header>
+    <div>
+        <p>Welcome to a simple application that demonstrates the HTTP/REST OAuth flow.</p>
+        <p>To get to the User Info page, please <a href="/auth">log in</a>!</p>
+        <p>Note: The Google account page will not  show up if any of the following is true:</p>
+        <ul>
+            <li>You are not logged in to any Google account.</li>
+            <li>You are logged in to multiple Google accounts.</li>
+            <li>You have not granted permission to this application.</li>
+        </ul>
+    </div>
+</body>
+</html>
