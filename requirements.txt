@@ -1,2 +1,8 @@
+python-dotenv==0.10.3
 Flask==1.0.2
 google-cloud-datastore==1.9.0
+google-api-python-client==1.7.11
+google-auth==1.7.1
+google-auth-oauthlib==0.4.1
+google-auth-httplib2==0.0.3
+requests==2.22.0

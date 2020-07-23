@@ -23,6 +23,7 @@ ul {
 
 li {
   margin-left: 35px;
+  word-wrap: break-word;
 }
 
 /* Adapted from https://pythonhow.com/add-css-to-flask-website/ */

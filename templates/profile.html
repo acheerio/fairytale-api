@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Assignment 6: OAuth 2.0</title>
+    <title>Fairytale API by acheerio</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 </head>
 <body>
@@ -14,6 +14,8 @@
             <li>Name: {{ session['name'] }}</li>
             <li>Email: {{ session['email'] }}</li>
             <li>State: {{ session['state'] }}</li>
+            <li>Google ID: {{ session['id'] }}</li>
+            <li>JWT: {{ session['jwt'] }}</li>
         </ul>
         <p>To return to the Welcome Page, please <a href="/logout">log out</a>.</p>
         <p>Logging out will allow you to generate a new state variable.</p>
